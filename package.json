@@ -1,0 +1,28 @@
+{
+  "name": "qari",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "nc": "new-component"
+  },
+  "dependencies": {
+    "@mantine/core": "7.17.1",
+    "@mantine/hooks": "7.17.1",
+    "next": "15.2.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "9.22.0",
+    "eslint-config-next": "15.2.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "postcss": "^8.5.3",
+    "postcss-preset-mantine": "1.17.0",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}
